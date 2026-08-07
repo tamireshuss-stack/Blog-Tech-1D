@@ -1,6 +1,6 @@
 header {
 background-color: rgb(243, 131, 196);
-color: blue;
+color: #030303;
 text-align: center;
 max-width: 800px;
 margin: 0 auto;
@@ -8,12 +8,12 @@ padding: 16px;
 }
 
 h1{
-    color: aqua;
+    color: rgb(180, 28, 28);
 }
 
 main {
 background-color: rgb(162, 162, 236);
-color: rgb(255, 0, 149);
+color: #030303;
 max-width: 800px;
 margin: 0 auto;
 padding: 16px;
