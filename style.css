@@ -23,5 +23,6 @@ display: flex;
 img{
     width: 150px;
     height: 150px;
-    bor
+    border: #030303;
+    height: 300px;
 }
