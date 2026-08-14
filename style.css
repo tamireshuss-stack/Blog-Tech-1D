@@ -24,5 +24,10 @@ img{
     width: 150px;
     height: 150px;
     border: #030303;
-    height: 300px;
+    display: block;
+    margin: 0 auto;
+}
+
+.artigo-autor {
+    font-weight: bold;
 }
