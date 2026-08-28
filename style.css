@@ -1,33 +1,59 @@
-header {
-background-color: rgb(243, 131, 196);
-color: #030303;
-text-align: center;
-max-width: 800px;
-margin: 0 auto;
-padding: 16px;
+header 
+Style.css
+
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Fonte universal herdada por todo o site */
+    margin: 0; /* Remove margens padrão do navegador */
+    padding: 0; /* Remove espaços padrão do navegador */
 }
 
-h1{
-    color: rgb(180, 28, 28);
+header {
+    background-color: #e97bcd; /* cor de fundo */
+    color: #000000; /* cor da fonte */
+    text-align: center; /* centraliza o texto horizontalmente */
+    max-width: 80%; /* define a largura máxima que o elemento pode ter */
+    margin: 0 auto; /* centraliza o bloco inteiro na tela */
+    padding: 16px; /* espaçamento interno entre a borda e o conteúdo */
+}
+
+h1 {
+    color: #a149c4;
 }
 
 main {
-background-color: rgb(162, 162, 236);
-color: #030303;
-max-width: 800px;
-margin: 0 auto;
-padding: 16px;
-display: flex;
+    background-color: #5f73e2;
+    color: #180805;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px;
 }
 
-img{
-    width: 150px;
-    height: 150px;
-    border: #030303;
-    display: block;
-    margin: 0 auto;
+article {
+    display: flex;
+    margin-bottom: 60px; /* Empurra o artigo de baixo, criando espaço */
+}
+
+img {
+    width: 150px; /* define a largura fixa da imagem */
+    height: 150px; /* define a altura fixa da imagem */
+    border: 20px; /* Formato/estilo da imagem */
+    display: block; /* transforma a imagem em um bloco para aceitar margens verticais e quebra de linha */
+    margin: 0 auto; /* centraliza a imagem horizontalmente na tela */
 }
 
 .artigo-autor {
-    font-weight: bold;
+    font-weight: bold; /* deixa o texto em negrito */
+}
+
+.texto-curto {
+    max-width: 650px; /* Limita a linha a cerca de 45 caracteres */
+}
+
+footer {
+    background-color: #bbc6b5; /* Cor de fundo branca para dar contraste e leitura */
+    color: #130305; /* Contrasta o texto horizontalmente */
+    max-width: 100%;
+    margin: 0 auto; /* Mantém o alinhamento do header e do main */
+    padding: 20px; /* centraliza o bloco inteiro para o fundo aparecer bem */
+    font-size: 14px; /* Deixa o texto do rodapé um pouco menor e discreto */
 }
